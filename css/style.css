@@ -1,0 +1,85 @@
+/* Common CSS End */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family:'Open Sans',sans-serif;
+}
+/* Common CSS Start */
+
+/* Nav CSS Start */
+nav{
+    background-color: #ffebe1;
+    /* color: #649483; */
+}
+nav .row{
+    align-items: center;
+}
+nav .container .logo{
+    width: 20%;
+    margin: auto;
+}
+nav .container .logo img{
+    display: block;
+}
+nav .container .menu{
+    width: 50%;
+}
+nav .container .menu ul{
+    justify-content: center;
+}
+nav .container .second_menu ul{
+    justify-content: flex-end;
+}
+nav .container .menu ul a{
+    color: #649483;
+    font-size: 19px;
+    padding: 42px 25px;
+    text-transform: capitalize;
+    transition: .6s;
+}
+nav .container .menu ul a:hover{
+    color: #dd7017;
+
+}
+
+
+nav .container .second_menu{
+    width: 30%;
+}
+nav .container .second_menu ul a{
+    color: #649483;
+    padding: 9px;
+}
+
+nav .container .second_menu ul .button a{
+    background-color: #649483;
+    padding: 9px 18px;
+    color: #ffece1;
+    border-radius: 7px;
+    transition: 0.6s;
+}
+nav .container .second_menu ul .button a:hover{
+    background-color: #dd7017;
+}
+/* Nav CSS End */
