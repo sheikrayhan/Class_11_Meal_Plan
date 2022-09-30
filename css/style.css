@@ -98,11 +98,11 @@ nav .container .second_menu ul .button a:hover{
 }
 #banner .container .section_info{
     width: 50%;
-    /* margin: auto; */
+    margin: auto;
 }
 #banner .container .section_info_2{
     width: 50%;
-    /* margin: auto; */
+    margin: auto;
 }
 #banner .container .section_info img{
     height: 100px;
