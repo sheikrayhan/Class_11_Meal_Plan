@@ -30,6 +30,9 @@ body{
 /* Nav CSS Start */
 nav{
     background-color: #ffebe1;
+    box-shadow: 0 1px 5px rgba(146, 127, 116, .21);
+    z-index: 9;
+    position: relative;
 }
 nav .row{
     align-items: center;
@@ -86,17 +89,34 @@ nav .container .second_menu ul .button a:hover{
 /* Banner Section CSS Start */
 #banner{
     background-color: #ffece1;
+    position: relative;
+    z-index: 1;
+}
+#banner .banner_shape_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+#banner .banner_shape_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 #banner .container .img-part{
     width: 50%;
     text-align: center;
-    height: 100%;
-    margin: auto;
+}
+#banner .container .img-part{
+    margin-left: -50px;
+    margin-top: 142px;
+
 }
 #banner .container .img-part img{
-    display: block;
-    /* margin-top: 145px; */
-    /* text-align: left; */
+    width: 100%;
 }
 #banner .container .img-part h4{
     color: #649483;
@@ -107,20 +127,20 @@ nav .container .second_menu ul .button a:hover{
 #banner .container .img-part p{
     color: #649483;
     font-size: 16px;
+    width: 360px;
+    margin: auto;
+
 }
 
 #banner .container .heading_part{
     width: 50%;
-    /* height: 100%; */
     text-align: left;
 }
-/* #banner .container .heading{
-    height: 100%;
-} */
 
 #banner .container .heading_part .heading h1{
+    width: 100%;
     color: #dd7017;
-    font-size: 112px;
+    font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 250px;
@@ -145,7 +165,7 @@ nav .container .second_menu ul .button a:hover{
     font-size: 19px;
     font-weight: 700;
     padding: 13px 15px;
-    border: 1px solid #649483;
+    border: 2px solid #649483;
     border-radius: 7px;
     text-transform: uppercase;
     margin-left: 25px;
@@ -166,14 +186,19 @@ nav .container .second_menu ul .button a:hover{
     padding: 10px;
     align-items: center;
 }
+#banner .container .heading_part .meal_option .meal_item img{
+    width: 100%;
+}
+
 #banner .container .heading_part .meal_option .meal_item p{
     color: #ffece1;
     font-size: 12px;
+    margin: auto;
 }
 /* Banner Section CSS End */
 
 /* Favorites Section CSS Start */
-#favorites{
+/* #favorites{
     background-color: #649483;
     height: 1015px;
 }
@@ -208,7 +233,5 @@ justify-content: center
     font-size: 19px;
     font-weight: 700;
 }
-
-
-
+ */
 /* Favorites Section CSS End */
