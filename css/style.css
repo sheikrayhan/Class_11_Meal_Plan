@@ -85,222 +85,130 @@ nav .container .second_menu ul .button a:hover{
 
 /* Banner Section CSS Start */
 #banner{
-    background-color: #ffebe1;
-    height: 890px;
+    background-color: #ffece1;
 }
-#banner .container{
-    height: 100%;
-}
-#banner .row{
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-#banner .container .section_info{
+#banner .container .img-part{
     width: 50%;
+    text-align: center;
+    height: 100%;
     margin: auto;
 }
-#banner .container .section_info_2{
-    width: 50%;
-    margin: auto;
+#banner .container .img-part img{
+    display: block;
+    /* margin-top: 145px; */
+    /* text-align: left; */
 }
-#banner .container .section_info img{
-    height: 580px;
-    width: 575px;
-}
-#banner .container .section_info h6{
+#banner .container .img-part h4{
     color: #649483;
-    text-transform: uppercase;
     font-size: 19px;
     font-weight: 700;
-    text-align: center;
+    text-transform: uppercase;
 }
-#banner .container .section_info p{
+#banner .container .img-part p{
     color: #649483;
     font-size: 16px;
-    text-align: center;
-    padding: 0px 70px;
 }
-#banner .container .section_info_2 .info_1 h1{
+
+#banner .container .heading_part{
+    width: 50%;
+    /* height: 100%; */
+    text-align: left;
+}
+/* #banner .container .heading{
+    height: 100%;
+} */
+
+#banner .container .heading_part .heading h1{
     color: #dd7017;
     font-size: 112px;
     font-weight: 700;
-}
-#banner .container .section_info_2 .info_1 a{
-    font-size: 19px;
-    font-weight: 700;
     text-transform: uppercase;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+#banner .container .heading_part .heading .button_1{
+    font-size: 19px;
     background-color: #649483;
-    padding: 9px 18px;
-    color: #fff4ee;
+    padding: 15px 18px;
+    color: #ffece1;
+    font-weight: 700;
     border-radius: 7px;
+    text-transform: uppercase;
 }
-#banner .container .section_info_2 .info_1 .banner_button{
+#banner .container .heading_part .heading .button_1:hover{
+    background-color: #dd7017;
+}
+
+#banner .container .heading_part .heading .button_2{
+    background-color: #fff4ee;
+    color: #649483;
     font-size: 19px;
     font-weight: 700;
-    text-transform: uppercase;
-    background-color: #ffece1;
-    padding: 9px 18px;
-    color:  #649483;
-    border: 1px solid  #649483;
+    padding: 13px 15px;
+    border: 1px solid #649483;
     border-radius: 7px;
+    text-transform: uppercase;
+    margin-left: 25px;
 }
-#banner .container .section_info_2 .info_2{
+#banner .container .heading_part .heading .button_2:hover{
+    background-color: #dd7017;
+    color: #fff4ee;
+}
+#banner .container .heading_part .meal_option{
+    background-color: #dc7017;
     display: flex;
-    background-color: #dc6f17;
-    border-radius: 10px;
-    margin-top:30px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    border-radius: 15px;
 }
-#banner .container .section_info_2 .info_2 .section_item{
+#banner .container .heading_part .meal_option .meal_item{
     width: 25%;
-    color: #ffece1;
+    padding: 10px;
+    align-items: center;
 }
-#banner .container .section_info_2 .info_2 .section_item p{
-    padding: 15px;
+#banner .container .heading_part .meal_option .meal_item p{
+    color: #ffece1;
+    font-size: 12px;
 }
 /* Banner Section CSS End */
 
-
-
-
-/* HASANAT ROKON'S CSS START */
-
-/* 
- #banner {
-    height: 887px;
-    background: #ffece1;
-    position: relative;
+/* Favorites Section CSS Start */
+#favorites{
+    background-color: #649483;
+    height: 1015px;
 }
-#banner .container {
-    position: relative;
-    height: 100%;
+#favorites .container .section_info{
+    color: #ffece1;
+    padding-top: 115px;
 }
-#banner .row {
-    position: absolute;
-    top: 0;
-    left: 86px;
-    width: 1170px;
-    height: 887px;
+#favorites .container .section_info h2{
+    font-size: 112px;
+    font-weight: 700;
 }
-#banner .bn_shape_1 {
-    width: 606px;
-    height: 538px;
-    position: absolute;
-    top: 0;
-    left: 0;
+#favorites .container .section_info p{
+    font-size: 17px;
+    font-weight: 700;
 }
-#banner .bn_shape_2 {
-    width: 330px;
-    height: 380px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-#banner .row .img_part {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-}
-#banner .row .img_part img {
-    height: 573px;
-    width: 572px;
-    margin-top: 170px;
-    margin-bottom: -40px;
-}
-#banner .row .img_part h5 {
-    font-size: 14px;
-    font-weight: 800;
-    color: #649483;
-    padding-bottom: 5px;
-}
-#banner .row .img_part p {
-    font-size: 14px;
-    font-weight: 400;
-    color: #649483;
+#favorites .container .row .section_information{
+    width: 31.40%;
+    background-color: #fce8dd;
+    margin-top: 70px;
+    margin-right: 22px;
+    height: 571px;
+    padding: 75px 55px;
     text-align: center;
-    padding: 0 120px;
-}
-#banner .row .heading_part {
-    height: 100%;
-    width: 50%;
-    
-}
-#banner .row .heading_part h1 {
-    font-size: 85px;
-    font-weight: 800;
-    color: #dd7017;
-    margin-top: 215px;
-    margin-bottom: 10px;
-}
-#banner .row .heading_part a {
-    color: #649483;
-    font-size: 13px;
-    font-weight: 800;
-    padding: 10px 16px ;
-    background: #fff;
-    margin-right: 20px;
-    border: 1px solid #649483;
-    border-radius: 10px;
-    text-transform: uppercase;
-}
-#banner .row .heading_part a:hover {
-    background: #649483;
-    color: #fff;
-}
-#banner .row .heading_part .info_section {
-    width: 652px;
-    height: 172px;
-    background: #ca6515;
-    padding: 19px 5px;
-    display: flex;
-    align-items: center;
-    margin-top: 75px;
     border-radius: 20px;
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center
 }
-#banner .row .heading_part .info_section h5 {
-    width: 8%;
-    height: 100%;
-    color: #fff;
-}
-#banner .row .heading_part .info_section .selection {
-    width: 21%;
-    height: 90%;
-    
-}
-#banner .row .heading_part .info_section .selection img {
-    width: 92px;
-    height: 92px;
-    display: block;
-    margin: auto;
-    
-}
-#banner .row .heading_part .info_section .selection p {
-    font-size: 11px;
-    font-weight: 800;
-    text-align: center;
-    color: #fff;
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding-top: 10px;
-}
-#banner .row .heading_part .info_section .anchor {
-    width: 8%;
-}
-#banner .row .heading_part .info_section .anchor a {
-    color: #fff;
-    background: none;
-    border: none;
-    font-size: 30px;
-    width: 100%;
-    display: block;
-    padding: 0;
-}
-#banner .row .heading_part .info_section .anchor a:hover {
+#favorites .container .row .section_information h5{
     color: #649483;
-}  */
- 
-/* HASANAT ROKON'S CSS END */
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+/* Favorites Section CSS End */
