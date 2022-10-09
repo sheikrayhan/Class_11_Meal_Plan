@@ -91,12 +91,13 @@ nav .container .second_menu ul .button a:hover{
     background-color: #ffece1;
     position: relative;
     z-index: 1;
+    /* margin-bottom: 75px; */
 }
 #banner .banner_shape_1{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    /* height: 100%; */
     z-index: -1;
 }
 
@@ -129,6 +130,7 @@ nav .container .second_menu ul .button a:hover{
     font-size: 16px;
     width: 360px;
     margin: auto;
+    margin-bottom: 75px;
 
 }
 
@@ -143,7 +145,7 @@ nav .container .second_menu ul .button a:hover{
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 250px;
+    margin-top: 230px;
     margin-bottom: 20px;
 }
 #banner .container .heading_part .heading .button_1{
@@ -179,11 +181,12 @@ nav .container .second_menu ul .button a:hover{
     display: flex;
     flex-wrap: wrap;
     margin-top: 70px;
+    /* margin-bottom: 143px; */
     border-radius: 15px;
 }
 #banner .container .heading_part .meal_option .meal_item{
     width: 25%;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
 }
 #banner .container .heading_part .meal_option .meal_item img{
@@ -193,45 +196,417 @@ nav .container .second_menu ul .button a:hover{
 #banner .container .heading_part .meal_option .meal_item p{
     color: #ffece1;
     font-size: 12px;
-    margin: auto;
+    text-align: center;
+    /* margin: auto; */
 }
 /* Banner Section CSS End */
 
+
+
 /* Favorites Section CSS Start */
-/* #favorites{
+#favorites{
     background-color: #649483;
-    height: 1015px;
+    /* height: 1015px; */
 }
-#favorites .container .section_info{
+#favorites .container h2{
     color: #ffece1;
-    padding-top: 115px;
-}
-#favorites .container .section_info h2{
-    font-size: 112px;
+    font-size: 90px;
     font-weight: 700;
+    padding-top: 115px;
+    /* margin-top: 115px; */
 }
-#favorites .container .section_info p{
+#favorites .container p{
+    color: #fff4ee;
     font-size: 17px;
     font-weight: 700;
+    padding-top: 15px;
+    text-transform: uppercase;
 }
-#favorites .container .row .section_information{
-    width: 31.40%;
-    background-color: #fce8dd;
+#favorites .container .fvrt_item{
+    width: 30%;
+    margin: auto;
+    background: #ffebe1;
+    border-radius: 30px;
     margin-top: 70px;
     margin-right: 22px;
-    height: 571px;
-    padding: 75px 55px;
-    text-align: center;
-    border-radius: 20px;
-    display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center
+    margin-bottom: 115px;
+    /* padding: 50px; */
 }
-#favorites .container .row .section_information h5{
+#favorites .container .fvrt_item h3{
     color: #649483;
     font-size: 19px;
     font-weight: 700;
+    text-align: center;
+    padding: 65px 90px 30px;
 }
- */
+#favorites .container .fvrt_item img{
+    display: block;
+}
+
+#favorites .container .fvrt_item p{
+    color: #649483;
+    text-align: center;
+    padding: 0px 40px;
+    padding-bottom: 70px;
+    /* font-size: 19px; */
+}
 /* Favorites Section CSS End */
+
+/* April Meals Plans Section CSS Start */
+#meal_plans{
+    background-color: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#meal_plans .meal_plans_shape_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#meal_plans .meal_plans_shape_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#meal_plans .container .img{
+    width: 40%;
+    padding-right: 40px;
+    padding-top: 115px;
+}
+#meal_plans .container .img img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    /* margin: auto; */
+}
+
+#meal_plans .container .information{
+    width: 60%;
+    padding-left: 40px;
+}
+#meal_plans .container .information h5{
+    color: #649483;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+#meal_plans .container .information h2{
+    color: #dd7017;
+    font-size: 95px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+#meal_plans .container .information p{
+    color: #649483;
+    font-size: 19px;
+    text-align: justify;
+    padding: 30px 0px;
+    width: 525px;
+}
+#meal_plans .container .information .order_section{
+    display: flex;
+    flex-wrap: wrap
+}
+#meal_plans .container .information .order_section .img_1{
+    width: 50%;
+    padding-right: 15px;
+}
+#meal_plans .container .information .order_section .img_1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#meal_plans .container .information .order_section .img_2{
+    width: 50%;
+    padding-left: 15px;
+}
+#meal_plans .container .information .order_section .img_2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#meal_plans .container .information .order_section .order_button{
+    font-size: 19px;
+    background-color: #639383;
+    padding: 15px 17px;
+    color: #ffece1;
+    font-weight: 700;
+    border-radius: 7px;
+    text-transform: uppercase;
+    transition: 0.7s;
+    margin-top: -30px;
+}
+#meal_plans .container .information .order_section .order_button:hover{
+    background-color: #dc7017;
+}
+
+#meal_plans .container .recipes .recipe_item{
+    width: 60%;
+    margin-top: 250px;
+    margin-bottom: 120px;
+}
+#meal_plans .container .recipes .recipes_main_img{
+    width: 40%;
+    margin-top: 220px;
+    margin-bottom: 120px;
+}
+#meal_plans .container .recipes .recipes_main_img img{
+    width: 100%;
+    border-radius: 20px;
+}
+#meal_plans .container .recipes .recipe_item .img_part{
+    display: flex;
+    flex-wrap: wrap;
+}
+#meal_plans .container .recipes .recipe_item .img_part .imgages{
+    width: 50%;
+}
+#meal_plans .container .recipes .recipe_item .img_part img{
+    display: block;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+#meal_plans .container .recipes .recipe_item h6{
+    font-size: 19px;
+    font-weight: 700;
+    color: #649483;
+}
+#meal_plans .container .recipes .recipe_item h3{
+    font-size: 112px;
+    font-weight: 700;
+    color: #dc7017;
+}
+#meal_plans .container .recipes .img_part .see_button{
+    font-size: 19px;
+    background-color: #639383;
+    padding: 15px 20px;
+    color: #ffece1;
+    font-weight: 700;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 0.7s;
+    margin-top: -30px;
+}
+#meal_plans .container .recipes .img_part .see_button:hover{
+    background-color: #dc7017;
+    /* color: #639383; */
+}
+
+/* April Meals Plans Section CSS End */
+
+/* Our Process Section CSS Start */
+#process{
+    background-color: #639383;
+}
+#process .container .title h2{
+    color: #ffece1;
+    font-size: 112px;
+    font-weight: 700;
+    padding-top: 115px;
+}
+#process .container .title p{
+    color: #ffebe1;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+#process .container .information .process_item{
+    width: 20%;
+}
+
+#process .container .information .arrow{
+    width: 10%;
+}
+/* Our Process Section CSS End */
+
+/* Meal Love Section CSS Start */
+#meal_love{
+    background-color: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#meal_love .meal_love_shape{
+    position: absolute;
+    right: 30%;
+    /* left: 0; */
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+#meal_love::before {
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dd7017;
+    z-index: -1;
+    border-radius: 25px 0px 0px 25px;
+}
+#meal_love .container .info{
+    width: 50%;
+    margin: 230px 0px;
+}
+#meal_love .container .info h2{
+    color: #dd7017;
+    font-size: 90px;
+    font-weight: 700;
+}
+#meal_love .container .info p{
+    color: #639383;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 30px 0px;
+    text-align: justify;
+}
+#meal_love .container .info a{
+    font-size: 19px;
+    background-color: #639383;
+    padding: 15px 20px;
+    color: #ffece1;
+    font-weight: 700;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: 0.7s;
+}
+#meal_love .container .info a:hover{
+    background-color: #dc7017;
+}
+
+
+#meal_love .container .img_part{
+    width: 50%;
+    margin-top: 80px;
+    text-align: right;
+}
+#meal_love .container .img_part img{
+    display: block;
+    width: 100%;
+    /* margin: auto; */
+}
+#meal_love .container .img_part i{
+    font-size: 50px;
+    color: #ffebe1;
+    padding-bottom: 20px;
+}
+#meal_love .container .img_part p{
+    color: #ffece1;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Meal Love Section CSS End */
+
+/* Story Section CSS Start */
+#story{
+    background-color: #639383;
+}
+#story .container .title h2{
+    color: #ffebe1;
+    font-size: 112px;
+    font-weight: 700;
+    padding: 100px 0px;
+}
+#story .container .info{
+    padding-bottom: 160px;
+}
+#story .container .info .confession{
+    width: 30%;
+    text-align: center;
+}
+#story .container .info .row{
+    justify-content: space-between;
+}
+#story .container .info .confession h3{
+    color: #fff4ee;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 35px 0px 20px 0px;
+    text-transform: uppercase;
+}
+#story .container .info .confession p{
+    font-size: 18px;
+    color: #fff4ee;
+    text-align: center;
+}
+/* Story Section CSS End */
+
+/* Meal Plans last Section CSS Start */
+#mp_made_4u{
+    background-color: #ffebe1;
+    position: relative;
+    z-index: 1;
+}
+#mp_made_4u .made_4u-shape_1{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+#mp_made_4u .made_4u-shape_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+}
+#mp_made_4u .row{
+    justify-content: space-between;
+    text-align: center;
+}
+#mp_made_4u .row .img_part_1{
+    width: 25%;
+    padding: 500px 0px 20px 0px;
+}
+#mp_made_4u .row .img_part_1 img{
+    width: 100%;
+    display: block;
+    /* padding: 470px; */
+}
+
+#mp_made_4u .row .info_section{
+    width: 50%;
+    padding: 300px 0px 200px 0px;
+}
+#mp_made_4u .row .info_section h2{
+    color: #dd7017;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+#mp_made_4u .row .info_section p{
+    color: #649483;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
+}
+#mp_made_4u .row .info_section .button{
+    font-size: 19px;
+    background-color: #639383;
+    padding: 15px 20px;
+    color: #ffece1;
+    font-weight: 700;
+    border-radius: 15px; 
+    transition: .5s;
+}
+#mp_made_4u .row .info_section .button:hover{
+    background-color: #dd7017;
+}
+
+#mp_made_4u .row .img_part_2{
+    width: 25%;
+    padding-top: 60px;
+}
+#mp_made_4u .row .img_part_2 img{
+    width: 100%;
+    display: block;
+}
+/* Meal Plans last Section CSS End */
