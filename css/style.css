@@ -13,6 +13,9 @@ a{
 ul{
     list-style-type: none;
 }
+li{
+    list-style-type: none;
+}
 .container{
     width: 1170px;
     margin: auto;
@@ -401,24 +404,61 @@ nav .container .second_menu ul .button a:hover{
 #process{
     background-color: #639383;
 }
-#process .container .title h2{
+#process .container h2{
     color: #ffece1;
     font-size: 112px;
     font-weight: 700;
     padding-top: 115px;
 }
-#process .container .title p{
+#process .container p{
     color: #ffebe1;
     font-size: 17px;
     font-weight: 700;
     padding: 20px 0px;
 }
-#process .container .information .process_item{
-    width: 20%;
+#process ,.container .row{
+    justify-content: space-between;
 }
+#process .container .process_item{
+    width: 28%;
+    margin-top: 70px;
+}
+#process .container .process_item img{
+    display: block;
+    width: 100%;
+    padding: 70px;
+}
+#process .container .arrow{
+    width: 8%;
+    margin-top: 70px;
+}
+#process .container .arrow i{
+    display: block;
+    text-align: center; 
+    color: #ffebe1;
+    font-size: 40px;
+    padding: 200px 0px;
 
-#process .container .information .arrow{
-    width: 10%;
+
+}
+#process .container .process_item{
+    width: 310px;
+    /* height: 380px; */
+    background-color: #ffece1 ;
+    margin-bottom: 115px;
+    border-radius: 15px;
+    text-align: center;
+}
+#process .container .process_item h5{
+    color: #dd7017;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 40px 17px 0px ;
+}
+#process .container .process_item p{
+    color: #dc7017;
+    font-size: 18px;
+    padding: 0px 20px 35px;
 }
 /* Our Process Section CSS End */
 
@@ -547,6 +587,7 @@ nav .container .second_menu ul .button a:hover{
 #mp_made_4u .made_4u-shape_1{
     position: absolute;
     bottom: 50%;
+    /* top: 0; */
     left: 0;
     height: 100%;
     z-index: -1;
@@ -610,3 +651,94 @@ nav .container .second_menu ul .button a:hover{
     display: block;
 }
 /* Meal Plans last Section CSS End */
+
+/* Footer Section CSS Start */
+footer{
+    background-color: #639383;
+}
+footer .container .information{
+    padding: 125px 0px;
+}
+footer .container .information .info{
+    width: 25%;
+}
+footer .container .information .info h3{
+    color: #fff4ee;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+footer .container .information .info li a{
+    display: block;
+    font-size: 18px;
+    color: #fff4ee;
+    padding: 5px 0px;
+    transition: .6s;
+}
+footer .container .information .info li a:hover{
+    color: #dd7017;
+}
+footer .container .information .newsletter a{
+    display: block;
+    font-size: 17px;
+    color: #fff4ee;
+    padding: 5px 0px;
+    transition: .6s;
+    padding-bottom: 10px;
+}
+footer .container .information .newsletter a:hover{
+    color: #dd7017;
+}
+footer .container .information .newsletter form input{
+    background-color: #639383;
+    color: #fff4ee;
+    border: 2px solid #fff4ee;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 300px;
+}
+footer .container .information .newsletter form button{
+    color: #639383;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff4ee;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .6s;
+}
+footer .container .information .newsletter form button:hover{
+    color: #dd7017;
+    /* background-color: #639383; */
+}
+footer .container .copyright{
+    padding-bottom: 125px;
+}
+footer .container .copyright .copy{
+    width: 70%;
+}
+footer .container .copyright .copy h5{
+    color: #fff4ee;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer .container .copyright .social{
+    width: 30%;
+    text-align: right;
+}
+footer .container .copyright .social a{
+    padding: 0px 15px;
+    
+}
+footer .container .copyright .social a img{
+    display: block;
+}
+
+/* Footer Section CSS End */
